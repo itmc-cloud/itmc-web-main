@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>ITMC - Software Consulting</title>
+        <meta name="description" content="ITMC Software Consulting - Custom software solutions, web development, and IT consulting services">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body id="google_translate_element">
+    <body>
+        <!-- Navigation -->
         <nav>
-            
+            <img src="/img/itmc-transparent.png" alt="ITMC Logo">
             <ul class="nav-links">
-                <li><img src="/img/itmc-transparent.png"></li>
-                <li><a>Service</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Store</a></li>
-                <li><a>How we work</a></li>
-                <li><a>About us</a></li>
-                <li><a>Work here</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <div></div>
@@ -26,72 +24,117 @@
                 <div></div>
             </div>
         </nav>
-        <section class="carousel-section">
-            <h1>Carusel</h1>
-        </section>
-        <section>
-            <img>
-            <span>
-                ITMC is a software consulting 
-            </span>
-        </section>
 
-        <section class="service-section">
-            <h2 class="center-text-title">Service</h2>
-            <p class="center-text-title">Choosing the right solution for your business</p>
-            <div class="service-box">
-                <div class="service-item">
-                    <div class="centerItems">
-                        <i class="gg-chart centerElement upspace"></i>
-                    </div>
-                    
-                    <span class="center-text-title">consulting</span>
-                </div>
-                <div class="service-item">
-                    <i class="gg-code-slash centerElement upspace"></i>
-                
-                    <div class="text-box">
-                        <h5 class="text-center">Custom made Software Solution</h5>
-                        <p class="text-justify">We create custom solutions tailored to your specific needs and goals</p>
-                        <span>see more</span>
-                    </div>
-                        
-                </div>
-                <div class="service-item">
-                    <i class="gg-shopping-bag centerElement upspace"></i>
-                    <span>Store</span>
-                </div>
-                <div class="service-item">
-                    <i class="gg-ethernet centerElement upspace"></i>
-                    <span>Network </span>
-                </div>
-                <div class="service-item">
-                    <i class="gg-support centerElement upspace"></i>
-                    <span>Technical Suport</span>
-                </div>
-
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>ITMC Software Consulting</h1>
+                <p>Custom software solutions tailored to your business needs</p>
             </div>
         </section>
 
-        <section>
-            <span>Gallery of product</span>
-            <span>Visit ourn app store</span>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>Our Commitment</h2>
+                <p>At ITMC Software Consulting, our clients are at the heart of everything we do. We prioritize their needs above all else, striving to offer personalized support tailored to their unique requirements. Our goal is simple: to provide the highest quality products coupled with individualized attention, ensuring that each client receives the care and assistance they deserve.</p>
+            </div>
         </section>
-        <section>
-            <span>Contact us</span>
-        </section>
-        <span>
 
-        </span>
-        <script src="js/functions.js" ></script>
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement(
-                    {pageLanguage: 'en', includedLanguages: 'fr,es,de,it,ja,zh-CN'},
-                    'google_translate_element'
-                );
-            }
-        </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- Services Section -->
+        <section id="services" class="service-section">
+            <h2 class="center-text-title">Our Services</h2>
+            <p class="center-text-title">Comprehensive solutions for your software needs</p>
+            <div class="service-box">
+                <div class="service-item">
+                    <i class="gg-code-slash centerElement upspace"></i>
+                    <div class="text-box">
+                        <h5 class="text-center">Custom Software Development</h5>
+                        <p class="text-justify">Web applications, mobile apps, and desktop solutions tailored to your specific requirements</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <i class="gg-chart centerElement upspace"></i>
+                    <div class="text-box">
+                        <h5 class="text-center">IT Consulting</h5>
+                        <p class="text-justify">Strategic technology guidance to help your business grow and optimize operations</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <i class="gg-ethernet centerElement upspace"></i>
+                    <div class="text-box">
+                        <h5 class="text-center">Infrastructure & Networking</h5>
+                        <p class="text-justify">Server setup, cloud deployment, and network infrastructure management</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <i class="gg-support centerElement upspace"></i>
+                    <div class="text-box">
+                        <h5 class="text-center">Technical Support</h5>
+                        <p class="text-justify">Ongoing maintenance and support for all your software systems</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="center-text-title">Our Previous Work</h2>
+            <p class="center-text-title">Delivering quality solutions across various industries</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>ERCLab 2.1</h3>
+                    <p class="project-type">Custom Laboratory System</p>
+                    <p>Web-based system to manage laboratory appointments, process workflow, and user interface for clients</p>
+                    <div class="tech-stack">HTML • CSS • JavaScript • PHP • MySQL</div>
+                </div>
+                <div class="project-card">
+                    <h3>Safe24 1.2</h3>
+                    <p class="project-type">SaaS for Financial Tracking</p>
+                    <p>Web app to track income, expenses, generate balances, and produce financial reports</p>
+                    <div class="tech-stack">React • Tailwind • Express • PostgreSQL</div>
+                </div>
+                <div class="project-card">
+                    <h3>InfinityPanama</h3>
+                    <p class="project-type">Online Radio Platform</p>
+                    <p>Streaming site for digital radio with live broadcast, mobile app, and media server infrastructure</p>
+                    <div class="tech-stack">React • Vite • Android • Docker</div>
+                </div>
+                <div class="project-card">
+                    <h3>ERP StaceyleeCloseth</h3>
+                    <p class="project-type">Mini ERP System</p>
+                    <p>Complete system managing sales, inventory, clients, purchases, employees, and reports</p>
+                    <div class="tech-stack">HTML • CSS • JavaScript • PHP • MySQL</div>
+                </div>
+                <div class="project-card">
+                    <h3>OpenLP Script</h3>
+                    <p class="project-type">Worship Media Manager</p>
+                    <p>Backend system for OpenLP with terminal integration and web UI</p>
+                    <div class="tech-stack">React • Node.js • SQLite</div>
+                </div>
+                <div class="project-card">
+                    <h3>Network Monitoring Tool</h3>
+                    <p class="project-type">Netwfv 1.0</p>
+                    <p>Monitors device availability with alert system for network infrastructure</p>
+                    <div class="tech-stack">Python • C • Shell Script</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="center-text-title">Let's Work Together</h2>
+            <p class="center-text-title">Get in touch to discuss your project</p>
+            <div class="contact-content">
+                <!-- Contact information will be added here -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 ITMC Software Consulting. All rights reserved.</p>
+        </footer>
+
+        <script src="js/functions.js"></script>
     </body>
 </html>
